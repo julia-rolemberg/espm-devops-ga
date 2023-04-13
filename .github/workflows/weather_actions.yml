@@ -20,7 +20,7 @@ jobs:
         pip install beautifulsoup4 requests
     - name: execute py script
       run:
-        python python_weather.py
+        python weather.py
     - uses: stefanzweifel/git-auto-commit-action@v4
 
     
